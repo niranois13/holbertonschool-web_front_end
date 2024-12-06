@@ -1,0 +1,10 @@
+/* Even more nested classes, on hover this time */
+$red: #FF0000;
+$green: #00FF00;
+
+button {
+    color: $red;
+    :hover {
+        color: $green
+    }
+}
