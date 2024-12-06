@@ -1,18 +1,14 @@
 /* Extended reality */
-%font-size {
+.info {
     font-size: 12px;
 }
 
-.info {
-    @extend %font-size;
-}
-
 .success {
-    @extend %font-size;
+    @extend .info;
     color: #00FF00;
 }
 
 .warning {
-    @extend %font-size;
+    @extend .info;
     color: #ff0000;
 }
