@@ -1,6 +1,7 @@
 /* Margin Mixin */
-@mixin margin($margin: 0 10px) {
-    margin: $margin;
+@mixin margin($margin: 10px) {
+    margin-left: $margin;
+    margin-right: $margin;
 }
 
 body {
@@ -8,5 +9,5 @@ body {
 }
 
 div {
-    @include margin(0 15px);
+    @include margin(15px);
 }
