@@ -1,0 +1,6 @@
+/* Hello World */
+@mixin hello-world() {
+    @debug "Hello world";
+}
+
+@include hello-world();
