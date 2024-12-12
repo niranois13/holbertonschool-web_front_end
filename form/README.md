@@ -1,24 +1,31 @@
 # Form
+<br/><br/>
 
 ![form](https://i.imgur.com/5fHbs40.png)
 
 This repo contains all files needed fo the completion of **Holberton specialization projet _Form_**.
+<br/><br/>
 
 # Table of content:
-1. [What are Forms](## whatareforms)
-2. [How to create a Form](## howtocreateaform)
-    1. [The action and method attributes](### actionmethod)
-    2. [The input tag](### input)
-    3. [Common input type attributes:](### inputtypes)
-3. [Accessibility and some other Good Practices](## accessibilitygoodpractices)
-4. [Full Example](## Full Example)
+- [Form](#form)
+- [Table of content:](#table-of-content)
+  - [What are Forms? :](#what-are-forms-)
+  - [How to create a Form :](#how-to-create-a-form-)
+    - [The `action` \& `method` attributes:](#the-action--method-attributes)
+    - [The `input` tag:](#the-input-tag)
+    - [Common `<input type="">` attributes:](#common-input-type-attributes)
+  - [Accessibility and some other Good Practices :](#accessibility-and-some-other-good-practices-)
+  - [Full Example](#full-example)
+
+<br/>
 
 
-## What are Forms? : <a name="whatareforms"></a>
+## What are Forms? : 
 HTML forms are a fundamental part of web development, allowing users to submit data to a server. Forms are used for a variety of purposes, such as user registration, login, feedback, surveys, and more.
 
+<br/>
 
-## How to create a Form : <a name="howtocreateaform"></a>
+## How to create a Form :
 A typical **HTML form** uses the `<form>` element, which serves as a container for input elements :
 ```
 <form action="submit-form.html" method="post">
@@ -32,18 +39,18 @@ A typical **HTML form** uses the `<form>` element, which serves as a container f
 </form>
 ```
 
-### The `action` & `method` attributes: <a name="actionmethod"></a>
+### The `action` & `method` attributes:
 In the example above, `<form></form>` tags have the `action`.
 This tag is used to specify where the form data is sent when the form is submitted.
 The URL specified as an argument for the action attribute (ie: `action="/submit-form.html"`) can be an absolute URL that points to another website
 or a relative URL that points to a file within a web site.
 
 
-### The `input` tag: <a name="input"></a>
+### The `input` tag:
 This tag is the most important element of a form, as it is used to specify an input field in which the user can enter data.
 As this tag will create the field, its appearance depends on the `type` attribute.
 
-### Common `<input type="">` attributes: <a name="inputtypes"></a>
+### Common `<input type="">` attributes:
 - **Text Input** creates a basic single-line text fields.
 ```
 <input type="text" name="username">
@@ -90,8 +97,9 @@ or
 <button type="submit">Submit</button>
 ```
 
+<br/>
 
-## Accessibility and some other Good Practices : <a name="accessibilitygoodpractices"></a>
+## Accessibility and some other Good Practices :
 In order to improve [accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/), security and overall user experience:
 - It is highly recommended to use the `<label>` tag. It will provide a short description of what kind of data is expected in the related input field.
 - Provide descriptive text for form elements using the `placeholder=""` or `aria-label` attributes.
@@ -102,6 +110,7 @@ In order to improve [accessibility](https://www.w3.org/WAI/fundamentals/accessib
 - Keep your forms as short as possible to enhance UX.
 - Group your fields logically with fieldset when possible and logic to do so
 
+<br/>
 
 ## Full Example
 Here is a full example that showcase everything we discussed above:
@@ -140,5 +149,6 @@ Here is a full example that showcase everything we discussed above:
   <button type="submit">Submit</button>
 </form>
 ```
+<br/><br/>
 
 Thank you for reading :)
