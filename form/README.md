@@ -9,23 +9,23 @@ This repo contains all files needed fo the completion of **Holberton specializat
 # Table of content:
 - [Form](#form)
 - [Table of content:](#table-of-content)
-  - [What are Forms? :](#what-are-forms-)
-  - [How to create a Form :](#how-to-create-a-form-)
+  - [What are Forms?](#what-are-forms)
+  - [How to create a Form?](#how-to-create-a-form)
     - [The `action` \& `method` attributes:](#the-action--method-attributes)
     - [The `input` tag:](#the-input-tag)
     - [Common `<input type="">` attributes:](#common-input-type-attributes)
-  - [Accessibility and some other Good Practices :](#accessibility-and-some-other-good-practices-)
-  - [Full Example](#full-example)
+  - [Accessibility and some other Good Practices:](#accessibility-and-some-other-good-practices)
+  - [Full Example:](#full-example)
 
 <br/>
 
 
-## What are Forms? : 
+## What are Forms?
 HTML forms are a fundamental part of web development, allowing users to submit data to a server. Forms are used for a variety of purposes, such as user registration, login, feedback, surveys, and more.
 
 <br/>
 
-## How to create a Form :
+## How to create a Form?
 A typical **HTML form** uses the `<form>` element, which serves as a container for input elements :
 ```
 <form action="submit-form.html" method="post">
@@ -99,7 +99,7 @@ or
 
 <br/>
 
-## Accessibility and some other Good Practices :
+## Accessibility and some other Good Practices:
 In order to improve [accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/), security and overall user experience:
 - It is highly recommended to use the `<label>` tag. It will provide a short description of what kind of data is expected in the related input field.
 - Provide descriptive text for form elements using the `placeholder=""` or `aria-label` attributes.
@@ -112,8 +112,10 @@ In order to improve [accessibility](https://www.w3.org/WAI/fundamentals/accessib
 
 <br/>
 
-## Full Example
+## Full Example:
 Here is a full example that showcase everything we discussed above:
+<br/><br/>
+
 ```
 <form action="/submit-form" method="post">
   <fieldset>
