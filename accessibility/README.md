@@ -6,6 +6,20 @@ This repo contains all files needed for the completion of **Holberton**'s projec
 
 <br /><br />
 
+- [Web Accessibility: A Quick Guide](#web-accessibility-a-quick-guide)
+  - [Introduction](#introduction)
+  - [Why Web Accessibility Matters](#why-web-accessibility-matters)
+  - [A Brief History of Web Accessibility](#a-brief-history-of-web-accessibility)
+  - [Key Features of Web Accessibility](#key-features-of-web-accessibility)
+    - [1. **Perceivable**](#1-perceivable)
+    - [2. **Operable**](#2-operable)
+    - [3. **Understandable**](#3-understandable)
+    - [4. **Robust**](#4-robust)
+  - [Getting Started with Accessibility](#getting-started-with-accessibility)
+  - [Resources](#resources)
+
+<br /><br />
+
 ## Introduction
 Web accessibility ensures that websites, tools, and technologies are designed and developed so that all users, including those with disabilities, can perceive, understand, navigate, and interact with them effectively. Accessible design not only benefits individuals with permanent disabilities but also those with temporary impairments and situational limitations.
 
