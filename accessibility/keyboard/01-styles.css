@@ -884,11 +884,14 @@ ul.row {
     }
 
     .card-work .card-title a {
-        opacity: 0;
         display: block;
         padding: 2rem 1rem 0 1rem;
     }
 
+    .card-work:hover .card-inner {
+        background-color: transparent;
+    }
+    
     .card-work:hover .card-image {
         transform: none;
     }
