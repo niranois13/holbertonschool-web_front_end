@@ -16,6 +16,7 @@ This repository is a collection of various frontend-focused projects made for **
     - [form](#form)
     - [responsive\_design](#responsive_design)
     - [sass\_scss](#sass_scss)
+    - [accessibility](#accessibility)
   - [How to Use](#how-to-use)
 
 ## Projects Overview
@@ -53,6 +54,9 @@ Explore the power of **Sass/SCSS** to streamline and enhance your CSS workflow. 
 - Variables, nesting, and mixins
 - Functions and loops in SCSS
 - Partials and imports for modular CSS
+
+### accessibility
+Introduction to web accessibilty and its key features.
 
 
 ## How to Use
