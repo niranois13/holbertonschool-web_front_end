@@ -11,6 +11,7 @@ This repository is a collection of various frontend-focused projects made for **
   - [Projects Overview](#projects-overview)
     - [html\_advanced](#html_advanced)
     - [CSS\_advanced](#css_advanced)
+    - [Javascript\_advanced](#javascript_advanced)
     - [developer\_tools](#developer_tools)
     - [flexbox](#flexbox)
     - [form](#form)
@@ -26,6 +27,14 @@ In this project, we had to reproduce, in plain HTML, a wireframe coming from a F
 
 ### CSS_advanced
 Based on the same Figma web page design, and starting from our HTML_advanced outcome, we had to complete its look in plain CSS.
+
+### Javascript_advanced
+Improve Javascript knowledge with those concepts:
+- Lexical scoping
+- Closure
+- Call stack
+- Binding
+- Callbacks
 
 ### developer_tools
 Learn how to leverage modern developer tools effectively. This project includes guides and examples on:
@@ -61,14 +70,14 @@ Introduction to web accessibilty and its key features.
 
 ## How to Use
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/holbertonschool-web_front_end.git
-   ```
+```
+git clone https://github.com/yourusername/holbertonschool-web_front_end.git
+```
 
 2. Navigate to the desired project folder:
-   ```bash
-   cd holbertonschool-web_front_end/<project_name>
-   ```
+```
+cd holbertonschool-web_front_end/<project_name>
+```
 
 3. Open the files in your preferred code editor and start exploring.
 
