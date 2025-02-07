@@ -20,13 +20,23 @@
         function setCookies() {
             const firstname = document.getElementById("firstname").value;
             const email = document.getElementById("email").value;
-            if (firstname) document.cookie = `firstname=${firstname}`;
-            if (email) document.cookie = `email=${email}`;
+            const date = new Date();
+            date.setDate(date.getDate() + 10);
+            const expirationTime = date.toUTCString()
+            if (firstname) {
+                document.cookie = `firstname=${firstname}; expires=${expirationTime}; path=/`;
+            }
+            if (email) { 
+                document.cookie = `email=${email}; expires=${expirationTime}; path=/`;
+            }
         }
 
         function showCookies() {
+            const FIRSTNAME = getCookie("firstname");
+            const EMAIL = getCookie("email");
+
             const $p = document.createElement("P");
-            $p.innerHTML = `Cookies: ${document.cookie}`;
+            $p.innerHTML = `Email: ${email || "Not set"} - Firstname: ${firstname || "Not set"}`;
             const $body = document.querySelector("body");
             $body.append($p);
         }
